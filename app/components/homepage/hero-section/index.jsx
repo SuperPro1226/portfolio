@@ -4,6 +4,7 @@ import { personalData } from "@/utils/data/personal-data";
 import Image from "next/image";
 import Link from "next/link";
 import { BsGithub, BsLinkedin } from "react-icons/bs";
+import { SiHackerrank } from "react-icons/si";
 import { FaFacebook, FaTwitterSquare } from "react-icons/fa";
 import { MdDownload } from "react-icons/md";
 import { RiContactsFill } from "react-icons/ri";
@@ -38,7 +39,7 @@ function HeroSection() {
               className="transition-all text-pink-500 hover:scale-125 duration-300"
             >
               <BsGithub size={30} />
-            </Link>
+            </Link>            
             <Link
               href={personalData.linkedIn}
               target='_blank'
@@ -47,11 +48,11 @@ function HeroSection() {
               <BsLinkedin size={30} />
             </Link>
             <Link
-              href={personalData.facebook}
+              href={personalData.hackerrank}
               target='_blank'
               className="transition-all text-pink-500 hover:scale-125 duration-300"
             >
-              <FaFacebook size={30} />
+              <SiHackerrank size={30} />
             </Link>
             <Link
               href={personalData.leetcode}
@@ -60,13 +61,7 @@ function HeroSection() {
             >
               <SiLeetcode size={30} />
             </Link>
-            <Link
-              href={personalData.twitter}
-              target='_blank'
-              className="transition-all text-pink-500 hover:scale-125 duration-300"
-            >
-              <FaTwitterSquare size={30} />
-            </Link>
+            
           </div>
 
           <div className="flex items-center gap-3">
@@ -108,7 +103,7 @@ function HeroSection() {
               <div>
                 <span className="ml-4 lg:ml-8 mr-2 text-white">name:</span>
                 <span className="text-gray-400">{`'`}</span>
-                <span className="text-amber-300">Abu Said</span>
+                <span className="text-amber-300">Javon Tran</span>
                 <span className="text-gray-400">{`',`}</span>
               </div>
               <div className="ml-4 lg:ml-8 mr-2">
@@ -122,13 +117,21 @@ function HeroSection() {
                 <span className="text-gray-400">{"', '"}</span>
                 <span className="text-amber-300">Express</span>
                 <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">NestJS</span>
+                <span className="text-amber-300">Spring Boot</span>
                 <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">MySql</span>
+                <span className="text-amber-300">MySQL</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">PostgreSQL</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">Hibernate</span>
                 <span className="text-gray-400">{"', '"}</span>
                 <span className="text-amber-300">MongoDB</span>
                 <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">Microservice</span>
+                <span className="text-gray-400">{"', '"}</span>
                 <span className="text-amber-300">Docker</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">JPA</span>
                 <span className="text-gray-400">{"', '"}</span>
                 <span className="text-amber-300">AWS</span>
                 <span className="text-gray-400">{"'],"}</span>
@@ -139,7 +142,7 @@ function HeroSection() {
                 <span className="text-gray-400">,</span>
               </div>
               <div>
-                <span className="ml-4 lg:ml-8 mr-2 text-white">quickLearner:</span>
+                <span className="ml-4 lg:ml-8 mr-2 text-white">fastLearner:</span>
                 <span className="text-orange-400">true</span>
                 <span className="text-gray-400">,</span>
               </div>
@@ -171,7 +174,7 @@ function HeroSection() {
                 <span className="ml-12 lg:ml-24 text-cyan-400">this.</span>
                 <span className="mr-2 text-white">skills.length</span>
                 <span className="mr-2 text-amber-300">&gt;=</span>
-                <span className="text-orange-400">5</span>
+                <span className="text-orange-400">10</span>
               </div>
               <div><span className="ml-8 lg:ml-16 mr-2 text-gray-400">{`);`}</span></div>
               <div><span className="ml-4 lg:ml-8 text-gray-400">{`};`}</span></div>
