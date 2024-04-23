@@ -47,6 +47,7 @@ import nextJS from '/public/svg/skills/nextJS.svg';
 import nginx from '/public/svg/skills/nginx.svg';
 import numpy from '/public/svg/skills/numpy.svg';
 import nuxtJS from '/public/svg/skills/nuxtJS.svg';
+import nodeJS from '/public/svg/skills/nodejs.svg';
 import opencv from '/public/svg/skills/opencv.svg';
 import photoshop from '/public/svg/skills/photoshop.svg';
 import php from '/public/svg/skills/php.svg';
@@ -72,6 +73,8 @@ import vuetifyjs from '/public/svg/skills/vuetifyjs.svg';
 import webix from '/public/svg/skills/webix.svg';
 import wolframalpha from '/public/svg/skills/wolframalpha.svg';
 import wordpress from '/public/svg/skills/wordpress.svg';
+import kubernetes from '/public/svg/skills/kubernetes.svg';
+import spring from '/public/svg/skills/spring.svg';
 
 
 export const skillsImage = (skill) => {
@@ -91,6 +94,10 @@ export const skillsImage = (skill) => {
       return adobeXd;
     case 'after effects':
       return afterEffects;
+    case 'kubernetes':
+      return kubernetes;
+    case 'spring':
+      return spring;
     case 'css':
       return css;
     case 'angular':
@@ -101,6 +108,8 @@ export const skillsImage = (skill) => {
       return nextJS;
     case 'nuxt js':
       return nuxtJS;
+    case 'node js':
+        return nodeJS;
     case 'react':
       return react;
     case 'svelte':
