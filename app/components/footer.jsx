@@ -14,6 +14,7 @@ function Footer() {
           <p className="text-sm">
             2024 © Portfolio by <Link target="_blank" href="https://www.linkedin.com/in/javon-tran-931549303" className="text-[#16f2b3]">Javon Tran</Link>
           </p>
+          
           <div className="flex items-center gap-5">
             <Link
               target="_blank"
