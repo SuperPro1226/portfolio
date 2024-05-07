@@ -5,6 +5,7 @@ export const experiences = [
     company: "University For Weight Loss Science",
     duration: "(Jan 2020 - Present)"
   },
+
   {
     id: 2,
     title: "Java Developer",
