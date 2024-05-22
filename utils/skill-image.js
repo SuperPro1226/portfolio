@@ -78,7 +78,9 @@ import spring from '/public/svg/skills/spring.svg';
 
 
 export const skillsImage = (skill) => {
+
   const skillID = skill.toLowerCase();
+
   switch (skillID) {
     case 'gcp':
       return gcp;
